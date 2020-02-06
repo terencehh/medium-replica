@@ -52,21 +52,30 @@ li, a, button {
 }
 
 button {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
-  border: none;
-  border-radius: 50px;
+  /* background-color: rgba(0, 136, 169, 1); */
+  border: 1px solid white;
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  margin-right: 16px;
+  line-height: 32px;
+  padding: 0 14px;
 }
 
 button:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+  border-color: #0088a9;
+  cursor: pointer
 }
 
 .svg-icon {
   fill: white;
+  transition: all 0.3s ease 0s;
+  margin-right: 16px;
+}
+
+.svg-icon:hover {
+  fill: #0088a9;
+  cursor: pointer;
 }
 
 .avatar {
@@ -82,10 +91,14 @@ button:hover {
   display: inline-block;
     vertical-align: middle;
     -webkit-border-radius: 100%;
-    border-radius: 100%;
+    border-radius: 100%;    
 }
 
 .avatar-image--icon {
   width: 32px;
   height: 32px;
+}
+
+.avatar-image--icon {
+  cursor: pointer;
 }
