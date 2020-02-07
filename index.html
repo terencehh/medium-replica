@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <title>Home Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/home.css">
 </head>
 
@@ -46,27 +47,24 @@
 
     </div>
 
-    <div class=main-article-block>
+    <!-- contains 3 sections - use 3 column layout -->
+    <div class=container>
+      <div class=row>
 
-      <div class=main-article>
-
-        <div class=main-article-post>
-
+        <div class="col col-sm-7 col-xs-12 col-md-7 col-lg-4 col-xl-5">
+          main article
           <img src="assets/main_article_image.jpeg" alt="Main Article Image">
+        </div>
 
+        <div class="col col-sm-5 col-md-5 col-lg-5 col-xl-4 d-none d-sm-block">
+          3 article card
+        </div>
+
+        <div class="col col-lg-3 col-xl-3 d-none d-lg-block">
+          secondary article
         </div>
 
       </div>
-
-      <div class=3-article-card>
-
-      </div>
-      
-      <div class=secondary-article>
-
-      </div>
-
-    </div>
 
     <div class=main-body-container>
 
@@ -98,5 +96,9 @@
 
   </div>
   
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>
