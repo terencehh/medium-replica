@@ -52,16 +52,53 @@
       <div class=row>
 
         <div class="col col-sm-7 col-xs-12 col-md-7 col-lg-4 col-xl-5">
-          main article
-          <img src="assets/main_article_image.jpeg" alt="Main Article Image">
+
+          <img class="img-fluid main-image" src="assets/main_article_image.jpeg" alt="Main Article Image">
+          <h1>How I made my portfolio website blazing fast with Gatsby</h1>
         </div>
 
+
         <div class="col col-sm-5 col-md-5 col-lg-5 col-xl-4 d-none d-sm-block">
-          3 article card
+
+          <!-- PUT ANOTHER CONTAINER HERE. EACH ARTICLE CARD HAS A MARGIN-BOTTOM of 24px -->
+
+          <!-- EACH IMAGE IN ARTICLE CARD HAS MARGIN-RIGHT of 24px -->
+          <div class="container">
+            <div class=row>
+              <div class=col>
+                <div class=article-card>
+                  <img class="article-image" src="assets/article_1_image.jpeg" alt="Article 1 Image">
+                  <p>first article</p>
+                </div>
+              </div>
+            </div>
+            <div class=row>
+              <div class=col>
+                <div class=article-card>
+                  <img class="article-image" src="assets/article_2_image.jpeg" alt="Article 2 Image">
+                  <p>second article</p>
+                </div>
+              </div>
+            </div>
+            <div class=row>
+              <div class=col>
+                <div class=article-card>
+                  <img class="article-image" src="assets/article_3_image.png" alt="Article 3 Image">
+                  <p>second article</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
         </div>
 
         <div class="col col-lg-3 col-xl-3 d-none d-lg-block">
-          secondary article
+          <h1>secondary article</h1>
         </div>
 
       </div>
