@@ -11,7 +11,7 @@
     font-style: normal;
     text-rendering: optimizeLegibility;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.4;
     
 }
@@ -25,6 +25,10 @@ li, a, button {
   font-weight: 500;
   font-size: 16px;
   color: #edf0f1;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 }
 
@@ -133,7 +137,7 @@ button:hover {
 h1 {
   margin-bottom: 4px !important;
   font-size: 24px !important;
-
+  font-weight: 600 !important;
 }
 
 .main-image {
@@ -157,6 +161,114 @@ h1 {
 .main-article-content {
   margin-left: 88px;
 }
+
+.main-title-card {
+  display: flex;
+  max-height: 135px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.article-ranking {
+  min-width: 0! important;
+  margin-top: 12px! important;
+  display: flex! important;
+  justify-content: space-between! important;
+  flex: 1 1 auto;
+  white-space: nowrap!important;
+  text-overflow: ellipsis!important;
+  overflow: hidden!important;
+}
+
+.flex-start {
+
+  align-items: flex-start! important
+
+}
+
+.width-100 {
+  width: 100%! important;
+}
+
+.main-article-title-link {
+  overflow: hidden!important;
+  max-height: 84px!important;
+  text-overflow: ellipsis!important;
+  display: -webkit-box!important;
+  -webkit-line-clamp: 3!important;
+  -webkit-box-orient: vertical;
+  font-weight: 600!important;
+  margin-bottom: 4px! important;
+}
+
+.main-article-summary {
+  overflow: hidden!important;
+  max-height: 60px!important;
+  text-overflow: ellipsis!important;
+  -webkit-line-clamp: 3!important;
+  -webkit-box-orient: vertical;
+  font-weight: 400! important;
+  font-size: 16px;
+}
+
+.article-card-footer {
+  font-size: 15px!important;
+  line-height: 20px!important;
+  font-weight: 400! important;
+  font-style: normal!important;
+  letter-spacing: 0!important;
+  white-space: nowrap!important;
+  text-overflow: ellipsis!important;
+  overflow: hidden!important;
+  padding: 0! important;
+}
+
+.card-footer-link {
+  font-size: 15px!important;
+  line-height: 20px!important;
+  font-weight: 400! important;
+  transition: all 0.3s ease 0s;
+}
+
+.card-footer-link:hover {
+    color: #0088a9;
+    text-decoration: none;
+}
+
+.card-date-rating {
+  white-space: nowrap! important;
+}
+
+time {
+  display: inline-block;
+  line-height: 1.4;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.middle-divider {
+  padding-right: .3em;
+  padding-left: .3em;
+  font-size: 16px;
+}
+
+.middle-divider:after {
+  content: '\00B7';
+}
+
+.rating-star {
+  padding-left: 4px! important;
+  vertical-align: middle!important;
+  position: relative;
+  height: 0! important;
+  line-height: 0;
+  margin-top: 0;
+  top: 0;
+  fill: white;
+}
+
 
 @media only screen and (max-width: 1207px) {
   .main-article-content {
