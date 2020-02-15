@@ -49,6 +49,7 @@ li, a, button {
   width: 100%;
   /* VERY IMPORTANT. z-index specifies how content is stacked on top. */
   z-index: 1000;
+  border-bottom: 2px solid #14151D
 }
 
 .logo {
@@ -153,6 +154,22 @@ h1 {
   margin-bottom:24px;
 }
 
+.main-article-content {
+  margin-left: 88px;
+}
+
+@media only screen and (max-width: 1207px) {
+  .main-article-content {
+    margin-left: 24px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main-article-content {
+    margin-left: 0px;
+  }
+}
+
 /* media query for when screen width goes below 600px */
 @media only screen and (max-width: 600px) {
   .profile-nav-bar {
@@ -165,3 +182,5 @@ h1 {
     margin-right: 0;
   }
 }
+
+
